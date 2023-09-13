@@ -31,7 +31,7 @@ options    {
 
         stage('Docker Build') {
             steps {
-               sh  'docker build . -f cellphone_testapp -t sarathbabu522/gtiplteam:latest'
+               sh  'docker build . -f cellphone_testapp -t sarathbabu522/opentop:latest'
             }
         }  
 
